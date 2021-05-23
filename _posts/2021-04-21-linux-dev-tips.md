@@ -1,3 +1,11 @@
+---
+layout: post
+title: Linux Dev Tips
+tags: [Tutorial,Jekyll]
+author: laoYao
+---
+
+
 > 2021-5-10
 
 ```
