@@ -534,3 +534,12 @@ lineageos download
            sync-j="4" />
 
 ```
+---
+
+# 2021-05-18
+
+```
+start learn from bilibili
+```
+
+---
