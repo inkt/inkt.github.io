@@ -6,6 +6,12 @@ author: laoYao
 ---
 
 
+> build cmd
+
+```shell
+cd /root/workspace/allwinner/android && source build/envsetup.sh && lunch 24 && extract-bsp && export USER=$(whoami) && make -j8 && pack
+```
+
 > 2021-5-10
 
 ```
