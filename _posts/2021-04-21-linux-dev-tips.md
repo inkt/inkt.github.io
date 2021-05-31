@@ -6,6 +6,19 @@ author: laoYao
 ---
 
 
+screenshot
+```
+code . --user-data-dir /root/.vscode
+
+adb shell screencap -p /sdcard/01.png
+
+adb shell cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies
+echo 480000  > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
+
+docker start 7daa9ce68378 && docker exec -it 7daa9ce68378 bin/bash
+```
+
+
 > build cmd
 
 ```shell
